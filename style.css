@@ -255,7 +255,8 @@ h2 {
 /* Targets */
 
 #targets .row .col-sm-4 .panel-target {
-    height: 350px;
+    box-sizing: border-box;
+    height: 400px;
 }
 
 
@@ -516,6 +517,10 @@ h2 {
 .contact .right form .button button:hover {
     color: var(--main-color);
     background: none;
+}
+
+.btnSubmit {
+    font-size: 15px;
 }
 
 @media (max-width: 947px) {
