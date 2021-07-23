@@ -254,6 +254,10 @@ h2 {
 
 /* Targets */
 
+#targets {
+    margin-bottom: 50px;
+}
+
 #targets .row .col-sm-4 .panel-target {
     box-sizing: border-box;
     height: 400px;
@@ -263,7 +267,7 @@ h2 {
 /* Experience */
 
 #experience {
-    background-color: white;
+    background-color: #fff;
 }
 
 .detail-cv {
@@ -280,6 +284,10 @@ h2 {
 
 
 /* Educations */
+
+#educations {
+    background-color: #fff;
+}
 
 .btn-time {
     margin-top: 30px;
